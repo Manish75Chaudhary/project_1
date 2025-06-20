@@ -1,27 +1,39 @@
-🧮 Python Terminal Calculator
-A fun and simple command-line calculator built with Python. It performs basic arithmetic operations and lets you keep calculating with the result—or start fresh anytime!
+🧮 Python Calculator
+This is a simple, interactive calculator built with Python that runs in the terminal. It performs basic arithmetic operations and includes an ASCII art logo to give a fun, retro feel.
 
-✨ Features
-Cool ASCII calculator logo 😎
+📋 Description
+This calculator allows users to:
 
-Handles basic math operations: +, -, *, /
+Perform basic arithmetic operations (+, -, *, /)
 
-Allows continuous calculations using the previous result
+Continuously calculate using the previous result
 
-Clear and easy-to-follow user prompts
+Restart the calculation at any time
 
-Beginner-friendly code structure
+Enjoy a visual ASCII calculator displayed in the terminal
+
+The calculator is implemented using Python functions and a dictionary to map operators to their respective functions. It uses a loop to manage repeated calculations and recursion to restart the program.
+
+⚙️ Features
+✔️ Clean and beginner-friendly Python code
+
+✔️ Reusable functions for each operation
+
+✔️ Dictionary-based operation selection
+
+✔️ ASCII Art logo for a creative terminal display
+
+✔️ Input handling for continuous calculations
 
 🧠 How It Works
-The calculator uses Python functions for each operation and a dictionary to map operators to functions. It runs in a loop so you can keep calculating until you're done.
+The user is prompted to enter the first number.
 
-Supported Operations
+The calculator displays available operators: +, -, *, /.
 
-"+" Addition
+The user selects an operation and enters the next number.
 
-"-" Subtraction
+The result is calculated and displayed.
 
-"*" Multiplication
+The user is asked whether they want to continue using the current result or start a new calculation.
 
-"/" Division
-
+If "yes", the calculator continues using the result; if "no", the screen clears and the calculator restarts.
