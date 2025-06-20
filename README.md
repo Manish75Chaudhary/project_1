@@ -16,6 +16,7 @@ Beginner-friendly code structure
 The calculator uses Python functions for each operation and a dictionary to map operators to functions. It runs in a loop so you can keep calculating until you're done.
 
 Supported Operations
+
 "+" Addition
 
 "-" Subtraction
